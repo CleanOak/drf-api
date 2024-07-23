@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'profiles',
     'posts',
     'comments',
+    'likes',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
