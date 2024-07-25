@@ -13,7 +13,7 @@ class FollowerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Follower
-        fields = ['id', 'owner', 'followed', 'created_at', 'follwed_name']
+        fields = ['id', 'owner', 'followed', 'created_at', 'followed_name']
 
     
     def create(self, validated_data):
