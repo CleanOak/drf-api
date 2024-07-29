@@ -23,9 +23,9 @@ class PostList(generics.ListCreateAPIView):
         DjangoFilterBackend,
     ]
     filterset_fields = [
-        'owner_followed_owner_profile',
-        'likes_owner_profile',
-        'owner_profile',
+        'owner__followed__owner__profile',
+        'likes__owner__profile',
+        'owner__profile',
     ]
     search_fields = [
         'owner__username',
