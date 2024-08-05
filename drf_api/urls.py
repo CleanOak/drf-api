@@ -21,7 +21,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('dj-rest-auth/', include('dj_rest_auth.urls')),
+<<<<<<< HEAD
     path(
+=======
+     path(
+>>>>>>> 1b6d47f (add serialiser to main project)
         'dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')
     ),
     path('', include('profiles.urls')),

@@ -1,7 +1,11 @@
 asgiref==3.8.1
 cloudinary==1.40.0
 dj-rest-auth==2.1.9
+<<<<<<< HEAD
 Django==5.0.7
+=======
+Django==3.2.4
+>>>>>>> 1b6d47f (add serialiser to main project)
 django-allauth==0.63.6
 django-cloudinary-storage==0.3.0
 django-filter==24.2
